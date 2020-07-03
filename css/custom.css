@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.02.2020, 16:29:51
+    Author     : Admin
+*/
+
+/*
+@media (max-width: 767.98px) {
+
+    #datepicker {
+        float: left;
+    }
+}
+*/
+
+a#logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.g-bg-map {
+    background: url('../img/maps/ps-map.jpg') no-repeat;
+    background-size: cover;
+}
