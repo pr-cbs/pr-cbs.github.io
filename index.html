@@ -167,6 +167,9 @@
                 set today_str = (((events.first()).date)|dateformat('dd')|int)|string
                 set root_other = site.get('/events/categories/2020-05-'+ tomorrow +'/')
                 set root_pagination = site.get('/events@1').pagination
+
+                e.g.: http://host:port/events/categories/23-07/
+
                 -->
                 <!-- Pagination -->
                 
@@ -409,7 +412,7 @@ var mm = date.getMonth() + 1;
 if (mm < 10) mm = '0' + mm;
 var year = date.getFullYear();
 
-var date_str = year + '-' + mm + '-' + dd;
+var date_str = dd + '-' + mm;
 
 return date_str;
 }
