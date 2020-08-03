@@ -35,15 +35,6 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css"
       rel="stylesheet"/>
 
- <!--<style>
-
-    #datepicker {
-        margin-top: 4rem;
-    }
-
-</style> -->
-
-
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
           rel="stylesheet">
@@ -114,18 +105,49 @@
     </header>
     <!-- End Header -->
 
-    <section class="g-bg-map g-py-100">
-        <div class="container text-center">
-            <h1 class="h1 g-color-black g-font-weight-400"> День в истории Петроградской стороны </h1>
-        </div>
-    </section>
+    
+<section class="g-bg-map g-py-100">
+    <div class="container text-center">
+        <h1 class="h1 g-color-black g-font-weight-400">День в истории Петроградской стороны</h1>
+    </div>
+</section>
+
 
     <!-- Blog Minimal Blocks -->
     
 
 
-<div class="container g-pt-100 g-pb-20">
-    <div class="row justify-content-between">
+<div class="container g-pt-40 g-pb-20">
+    <div class="row">
+        <div class="col-lg-12 g-mb-60">
+            <!-- Pagination -->
+                <nav aria-label="Date Navigation" class="text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item float-left g-hidden-xs-down">
+                            <a aria-label="yesterday"
+                               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-5 g-pa-7-16"
+                               href="#">
+                                <span aria-hidden="true"><i class="yesterday fa fa-angle-left g-mr-5"></i> Предыдущая дата</span>
+                                <span class="sr-only">Предыдущая дата</span>
+                            </a>
+                        </li>
+
+                        <li class="list-inline-item float-right g-hidden-xs-down">
+                            <a aria-label="tomorrow"
+                               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-5 g-pa-7-16"
+                               href="#">
+                                <span aria-hidden="true">Следующая дата <i
+                                        class="tomorrow fa fa-angle-right g-ml-5"></i></span>
+                                <span class="sr-only">Следующая дата</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Pagination -->
+        </div>
+    </div>
+
+    <div id="stickyblock-start" class="row justify-content-between">
         <div class="col-lg-9 order-lg-2 g-mb-80">
             <div class="g-pl-20--lg">
                 <!-- Blog Minimal Blocks -->
@@ -180,7 +202,7 @@
     <!-- End Blog Minimal Blocks -->
 
     <!-- PreFooter -->
-    <div class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60" id="stickyblock-end">
+    <div id="stickyblock-end" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
         <div class="container">
             <div class="row">
                 <!-- Footer Content -->
@@ -384,6 +406,33 @@
 setTimeout(function () {
 $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 }, 300);
+function getFormattedDate(date) {
+
+    var dd = date.getDate();
+    if (dd < 10) {
+        dd = '0' + dd;
+    }
+
+    var mm = date.getMonth() + 1;
+    if (mm < 10) {
+        mm = '0' + mm;
+    }
+
+    var year = date.getFullYear();
+
+    var date_str = dd + '-' + mm;
+    return date_str;
+}
+
+var date = new Date($('#datepicker').datepicker('getDate'));
+var tomorrow_date = new Date();
+var yesterday_date = new Date();
+tomorrow_date.setDate(date.getDate() + 1);
+yesterday_date.setDate(date.getDate() - 1);
+
+$('a[aria-label="tomorrow"]').attr('href', '/events/categories/' + getFormattedDate(tomorrow_date) + '/');
+$('a[aria-label="yesterday"]').attr('href', '/events/categories/' + getFormattedDate(yesterday_date) + '/');
+
 
 
             });
