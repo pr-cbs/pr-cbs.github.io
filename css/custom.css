@@ -25,3 +25,11 @@ a#logo {
     background: url('../img/maps/ps-map.jpg') no-repeat;
     background-size: cover;
 }
+.g-bg-persons {
+    background: url('../img/persons.jpg') no-repeat;
+    background-size: cover;
+}
+.g-bg-events {
+    background: url('../img/events.jpg') no-repeat;
+    background-size: cover;
+}
