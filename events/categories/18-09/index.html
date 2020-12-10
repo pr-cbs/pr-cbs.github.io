@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <!-- Title -->
-    <title>Памятные даты Петроградской стороны. Главная страница</title>
+    <title>Памятные даты Петроградской стороны. События за 18-09</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -117,10 +117,7 @@
     
 
 
-<!-- date.current is defined -->
-
-
-<div  class="container g-pt-40 g-pb-20">
+<div class="container g-pt-40 g-pb-20">
     <div class="row">
         <div class="col-lg-12 g-mb-60">
             <!-- Pagination -->
@@ -151,35 +148,67 @@
     </div>
 
     <div id="stickyblock-start" class="row justify-content-between">
-        <div  class="col-lg-9 order-lg-2 g-mb-80">
+        <div class="col-lg-9 order-lg-2 g-mb-80">
             <div class="g-pl-20--lg">
+                <!-- Blog Minimal Blocks -->
                 
-                    <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                        К сожалению, эта страница пока пуста: мы не добавили сюда ни одного события.
-                    </h2>
-                    <p>
-                        Попробуйте посмотреть другую дату.
-                    </p>
+                    
+                    <article class="g-mb-100" id="pervoe-zachislenie-v-leningradskoe-nahimovskoe-uchilishe">
+                         
+                            
+                            <img alt="Первое зачисление в Ленинградское Нахимовское училище" class="img-fluid w-100 g-rounded-5 g-mb-25"
+                             src="/events/pervoe-zachislenie-v-leningradskoe-nahimovskoe-uchilishe/e4vtxpga9su42clmtb@800x800.jpg">
+                        
+                        <div class="px-4">
+                            <ul class="d-flex justify-content-start align-items-end list-inline g-color-gray-dark-v5 g-font-size-13 g-mt-minus-10 g-mb-25">
+                                <!-- подпись изображения -->
+                                <li class="list-inline-item">
+                                    
+                                        <span class="d-block g-color-gray-dark-v4 g-font-weight-700 g-font-size-14 text-uppercase mb-2">18 сентября 1944 г.</span>
+                                    
+                                </li>
+                            </ul>
+                            <h2 class="h4 g-color-black g-font-weight-600">
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/events/pervoe-zachislenie-v-leningradskoe-nahimovskoe-uchilishe/">Первое зачисление в Ленинградское Нахимовское училище</a>
+                            </h2>
+                            <p class="g-color-gray-dark-v4">
+                                <p>18 сентября 1944 года состоялось первое зачисление в Ленинградское Нахимовское военно-морское училище. ЛНВМУ заняло постройки бывшего Городского училищного дома имени Петра Великого.</p>
+<p>В первый учебный год за парты сели 408 воспитанников в возрасте от 10 до 14 лет. Многие из них до этого участвовали в боях на фронте, имели награды. В 1948 году состоялся первый выпуск.</p>
+<p><a href="https://pr-cbs.ru/catalog/-/books/10247638-nakhimovskoye-uchilishche">Грабарь, В. К. Нахимовское училище : История. Традиции. Судьбы / В. К. Грабарь. - Санкт-Петербург : Искусство-СПБ, 2003.</a></p>
+
+                            </p>
+
+                            <a class="g-font-weight-700 g-font-size-13" href="/events/pervoe-zachislenie-v-leningradskoe-nahimovskoe-uchilishe/">Перейти к событию</a>
+                        </div>
+                    </article>
+                    
                 
-                <!--
-                set tomorrow = (((events.first()).date)|dateformat('dd')|int + 1)|string
-                set today_str = (((events.first()).date)|dateformat('dd')|int)|string
-                set root_other = site.get('/events/categories/2020-05-'+ tomorrow +'/')
-                set root_pagination = site.get('/events@1').pagination
+                <!-- End Blog Minimal Blocks -->
 
-                e.g.: http://host:port/events/categories/23-07/
-
-                -->
                 <!-- Pagination -->
                 
-                
-                <!-- End Pagination -->
 
+
+
+<nav aria-label="Page Navigation" class="text-center" id="stickyblock-end">
+    <ul class="list-inline">
+
+        
+
+
+        
+
+        
+    </ul>
+</nav>
+
+
+                <!-- End Pagination -->
             </div>
         </div>
 
         <!-- Calendar -->
-        <div class="col-lg-3 order-lg-1 g-brd-right--lg g-brd-gray-light-v4">
+        <div id="stickyblock-start" class="col-lg-3 order-lg-1 g-brd-right--lg g-brd-gray-light-v4">
             <div class="js-sticky-block g-sticky-block--lg"
                  data-end-point="#stickyblock-end" data-start-point="#stickyblock-start">
                 <div class="g-mb-50">
@@ -192,7 +221,6 @@
         <!-- End Calendar -->
 
     </div>
-
 </div>
 
     <!-- End Blog Minimal Blocks -->
@@ -402,21 +430,25 @@
 setTimeout(function () {
 $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 }, 300);
-
 function getFormattedDate(date) {
 
-var dd = date.getDate();
-if (dd < 10) dd = '0' + dd;
-var mm = date.getMonth() + 1;
-if (mm < 10) mm = '0' + mm;
-var year = date.getFullYear();
+    var dd = date.getDate();
+    if (dd < 10) {
+        dd = '0' + dd;
+    }
 
-var date_str = dd + '-' + mm;
+    var mm = date.getMonth() + 1;
+    if (mm < 10) {
+        mm = '0' + mm;
+    }
 
-return date_str;
+    var year = date.getFullYear();
+
+    var date_str = dd + '-' + mm;
+    return date_str;
 }
 
-var date = new Date();
+var date = new Date($('#datepicker').datepicker('getDate'));
 var tomorrow_date = new Date();
 var yesterday_date = new Date();
 tomorrow_date.setDate(date.getDate() + 1);
@@ -424,6 +456,7 @@ yesterday_date.setDate(date.getDate() - 1);
 
 $('a[aria-label="tomorrow"]').attr('href', '/events/categories/' + getFormattedDate(tomorrow_date) + '/');
 $('a[aria-label="yesterday"]').attr('href', '/events/categories/' + getFormattedDate(yesterday_date) + '/');
+
 
 
             });
