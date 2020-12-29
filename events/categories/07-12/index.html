@@ -147,29 +147,30 @@
     <div class="row">
         <div class="col-lg-12 g-mb-60">
             <!-- Pagination -->
-                <nav aria-label="Date Navigation" class="text-center">
-                    <ul class="list-inline">
-                        <li class="list-inline-item float-left g-hidden-xs-down">
-                            <a aria-label="yesterday"
-                               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-5 g-pa-7-16"
-                               href="#">
-                                <span aria-hidden="true"><i class="yesterday fa fa-angle-left g-mr-5"></i> Предыдущая дата</span>
-                                <span class="sr-only">Предыдущая дата</span>
-                            </a>
-                        </li>
+            <nav aria-label="Date Navigation" class="text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item float-left g-hidden-xs-down">
+                        <a aria-label="yesterday"
+                           class="y-t-date-button u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-25 g-pa-7-16"
+                           href="#">
+                            <span aria-hidden="true"><i
+                                    class="yesterday fa fa-angle-left g-mr-5"></i> Предыдущая дата</span>
+                            <span class="sr-only">Предыдущая дата</span>
+                        </a>
+                    </li>
 
-                        <li class="list-inline-item float-right g-hidden-xs-down">
-                            <a aria-label="tomorrow"
-                               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-5 g-pa-7-16"
-                               href="#">
+                    <li class="list-inline-item float-right g-hidden-xs-down">
+                        <a aria-label="tomorrow"
+                           class="y-t-date-button u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-25 g-pa-7-16"
+                           href="#">
                                 <span aria-hidden="true">Следующая дата <i
                                         class="tomorrow fa fa-angle-right g-ml-5"></i></span>
-                                <span class="sr-only">Следующая дата</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- End Pagination -->
+                            <span class="sr-only">Следующая дата</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Pagination -->
         </div>
     </div>
 
@@ -180,40 +181,40 @@
                 
 
                 
-                    
+                
 
-                        <!-- Blog Minimal Blocks -->
-                        <article class="row align-items-center u-block-hover">
-                            <div class="col-md-6 g-mb-30">
-                                <div class="g-overflow-hidden">
-                                    
-                                    
-                                    <a href="/events/ulica-dalya-poluchila-svoyo-nazvanie/">
-                                        <img class="img-fluid w-100 g-mb-minus-6"
-                                             src="/events/ulica-dalya-poluchila-svoyo-nazvanie/03_big@400x270.jpg" alt="Улица Даля получила своё название">
-                                        
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 g-mb-30">
-                                <div class="g-pa-30--md">
-                                    
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/ulica-dalya-poluchila-svoyo-nazvanie/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/ulica-dalya-poluchila-svoyo-nazvanie/03_big@400x270.jpg" alt="Улица Даля получила своё название">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
       7 декабря 1913 года
     </span>
   
 
-                                    <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                        <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
-                                           href="/events/ulica-dalya-poluchila-svoyo-nazvanie/">Улица Даля получила своё название</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </article>
-                        <!-- End Blog Minimal Blocks -->
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/ulica-dalya-poluchila-svoyo-nazvanie/">Улица Даля получила своё название</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
 
-                    
+                
 
                 
                 <!-- End Blog Minimal Blocks -->
@@ -465,17 +466,17 @@ $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 }, 300);
 function getFormattedDate(d) {
 
-    var dd = d.getDate();
-    if (dd < 10) {
-        dd = '0' + dd;
-    }
+var dd = d.getDate();
+if (dd < 10) {
+dd = '0' + dd;
+}
 
-    var mm = d.getMonth() + 1;
-    if (mm < 10) {
-        mm = '0' + mm;
-    }
-    var date_str = dd + '-' + mm;
-    return date_str;
+var mm = d.getMonth() + 1;
+if (mm < 10) {
+mm = '0' + mm;
+}
+var date_str = dd + '-' + mm;
+return date_str;
 }
 
 var cal_date = $('#datepicker').datepicker('getDate');
