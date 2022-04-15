@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <!-- Title -->
-    <title>Памятные даты Петроградской стороны. </title>
+    <title>Памятные даты Петроградской стороны. События за 11-04</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -56,14 +56,6 @@
 <!-- datepicker style files -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css"
       rel="stylesheet"/>
-<!--<style>
-
-    #datepicker {
-        margin-top: 4rem;
-    }
-
-</style> -->
-
 
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
@@ -149,13 +141,60 @@
 
     <!-- Blog Minimal Blocks -->
     
+<!-- site.get('/events@1').pagination.items.filter(F.categories.contains(bag('date.current'))).order_by('name') -->
+<!-- this.pagination.items.order_by('date', 'name') -->
 
-<div class="container g-pt-100 g-pb-20">
-    <div class="row justify-content-between">
+<div class="container g-pt-40 g-pb-20">
+    <div class="row">
+        <div class="col-lg-12 g-mb-60">
+            <!-- Pagination -->
+            <nav aria-label="Date Navigation" class="text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item float-left g-hidden-xs-down">
+                        <a aria-label="yesterday"
+                           class="y-t-date-button u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-25 g-pa-7-16"
+                           href="#">
+                            <span aria-hidden="true"><i
+                                    class="yesterday fa fa-angle-left g-mr-5"></i> Предыдущая дата</span>
+                            <span class="sr-only">Предыдущая дата</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item float-right g-hidden-xs-down">
+                        <a aria-label="tomorrow"
+                           class="y-t-date-button u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-25 g-pa-7-16"
+                           href="#">
+                                <span aria-hidden="true">Следующая дата <i
+                                        class="tomorrow fa fa-angle-right g-ml-5"></i></span>
+                            <span class="sr-only">Следующая дата</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Pagination -->
+        </div>
+    </div>
+
+    <div id="stickyblock-start" class="row justify-content-between">
         <div class="col-lg-9 order-lg-2 g-mb-80">
+
             <div class="g-pl-20--lg">
+                
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Закрыть">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <p class="lead">
+                        К&nbsp;сожалению, в&nbsp;нашем календаре пока нет событий в&nbsp;этот день. Но&nbsp;в&nbsp;этом
+                        месяце произошло много интересных событий.
+                    </p>
+                </div>
 
 
+                    
+                
+
+                
                 
 
                 <!-- Blog Minimal Blocks -->
@@ -164,9 +203,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/sostoyalas-ceremoniya-zakladki-zdaniya-zhenskogo-pedagogicheskogo-instituta/">
+                            <a href="/events/vypusk-ukaza-o-stroitelstve-pervyh-mostov/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/sostoyalas-ceremoniya-zakladki-zdaniya-zhenskogo-pedagogicheskogo-instituta/photo_276-283419@400x270.jpg" alt="Заложено здание Женского педагогического института">
+                                     src="/events/vypusk-ukaza-o-stroitelstve-pervyh-mostov/-1799-.@400x270.jpg" alt="Выпущен указ о строительстве первых мостов">
                                 
                             </a>
                         </div>
@@ -176,12 +215,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      27 сентября 1904 года
+      3 апреля 1760 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/sostoyalas-ceremoniya-zakladki-zdaniya-zhenskogo-pedagogicheskogo-instituta/">Заложено здание Женского педагогического института</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/vypusk-ukaza-o-stroitelstve-pervyh-mostov/">Выпущен указ о строительстве первых мостов</a>
                             </h2>
                         </div>
                     </div>
@@ -196,9 +236,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/gryaznyj-pereulok-pereimenovan-v-uspenskij/">
+                            <a href="/events/petr-i-zapretil-stroit-v-peterburge-derevyannye-doma/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/gryaznyj-pereulok-pereimenovan-v-uspenskij/1930-1940-.@400x270.jpg" alt="Грязный переулок переименован в Успенский">
+                                     src="/events/petr-i-zapretil-stroit-v-peterburge-derevyannye-doma/jpsywc7xsyv648tzh7@400x270.jpg" alt="Петр I запретил строить в Петербурге деревянные дома">
                                 
                             </a>
                         </div>
@@ -208,12 +248,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      14 января 1905 года
+      4 апреля 1714 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/gryaznyj-pereulok-pereimenovan-v-uspenskij/">Грязный переулок переименован в Успенский</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/petr-i-zapretil-stroit-v-peterburge-derevyannye-doma/">Петр I запретил строить в Петербурге деревянные дома</a>
                             </h2>
                         </div>
                     </div>
@@ -228,9 +269,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/otkrytie-doma-pisatelej-im-v-f-golubeva-na-aptekarskom-ostrove/">
+                            <a href="/events/otkrylsya-muzej-shahmaty-i-farfor/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/otkrytie-doma-pisatelej-im-v-f-golubeva-na-aptekarskom-ostrove/5-1905-.-.-.-.@400x270.jpg" alt="Открыт Дом писателей им. В. Ф. Голубева на Аптекарском острове">
+                                     src="/events/otkrylsya-muzej-shahmaty-i-farfor/08-04-2015@400x270.jpg" alt="Открылся музей &#34;Шахматы и фарфор&#34;">
                                 
                             </a>
                         </div>
@@ -240,12 +281,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      5 мая 1905 года
+      8 апреля 2015 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/otkrytie-doma-pisatelej-im-v-f-golubeva-na-aptekarskom-ostrove/">Открыт Дом писателей им. В. Ф. Голубева на Аптекарском острове</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/otkrylsya-muzej-shahmaty-i-farfor/">Открылся музей &#34;Шахматы и фарфор&#34;</a>
                             </h2>
                         </div>
                     </div>
@@ -260,9 +302,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/otkrytie-ortopedicheskogo-klinicheskogo-instituta/">
+                            <a href="/events/zoologicheskij-sad-vystavlen-na-torgi/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/otkrytie-ortopedicheskogo-klinicheskogo-instituta/1902-1906-5@400x270.jpg" alt="Открыт Ортопедический клинический институт">
+                                     src="/events/zoologicheskij-sad-vystavlen-na-torgi/18901894-.@400x270.jpg" alt="Зоологический сад выставлен на торги">
                                 
                             </a>
                         </div>
@@ -272,12 +314,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      16 марта 1906 года
+      9 апреля 1910 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/otkrytie-ortopedicheskogo-klinicheskogo-instituta/">Открыт Ортопедический клинический институт</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/zoologicheskij-sad-vystavlen-na-torgi/">Зоологический сад выставлен на торги</a>
                             </h2>
                         </div>
                     </div>
@@ -292,9 +335,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/vvod-v-ekspluataciyu-zdaniya-ortopedicheskoj-lechebnicy/">
+                            <a href="/events/otkryt-muzej-kosmonavtiki-i-raketnoj-tehniki-imeni-vp-glushko/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/vvod-v-ekspluataciyu-zdaniya-ortopedicheskoj-lechebnicy/-5-1907.@400x270.jpg" alt="Введено в эксплуатацию здание Ортопедической лечебницы">
+                                     src="/events/otkryt-muzej-kosmonavtiki-i-raketnoj-tehniki-imeni-vp-glushko/12-04-1973@400x270.jpg" alt="Открыт Музей космонавтики и ракетной техники имени В.П. Глушко">
                                 
                             </a>
                         </div>
@@ -304,12 +347,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      5 июля 1906 года
+      12 апреля 1973 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/vvod-v-ekspluataciyu-zdaniya-ortopedicheskoj-lechebnicy/">Введено в эксплуатацию здание Ортопедической лечебницы</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/otkryt-muzej-kosmonavtiki-i-raketnoj-tehniki-imeni-vp-glushko/">Открыт Музей космонавтики и ракетной техники имени В.П. Глушко</a>
                             </h2>
                         </div>
                     </div>
@@ -324,9 +368,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/vzryv-na-aptekarskom-ostrove-pokushenie-na-stolypina/">
+                            <a href="/events/domeniko-trezini-naznachen-glavnym-arhitektorom-sankt-peterburga/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/vzryv-na-aptekarskom-ostrove-pokushenie-na-stolypina/-25-1906-.@400x270.jpg" alt="Взрыв на Аптекарском острове. Покушение на П. А. Столыпина">
+                                     src="/events/domeniko-trezini-naznachen-glavnym-arhitektorom-sankt-peterburga/12-04-1703@400x270.jpg" alt="Доменико Трезини назначен главным архитектором Санкт-Петербурга">
                                 
                             </a>
                         </div>
@@ -336,12 +380,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      25 августа 1906 года
+      12 апреля 1703 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/vzryv-na-aptekarskom-ostrove-pokushenie-na-stolypina/">Взрыв на Аптекарском острове. Покушение на П. А. Столыпина</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/domeniko-trezini-naznachen-glavnym-arhitektorom-sankt-peterburga/">Доменико Трезини назначен главным архитектором Санкт-Петербурга</a>
                             </h2>
                         </div>
                     </div>
@@ -356,9 +401,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/torzhestvennoe-otkrytie-i-osvyashenie-zhenskogo-pedagogicheskogo-instituta/">
+                            <a href="/events/osvyashenie-pervoj-derevyannoj-petropavlovskoj-cerkvi/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/torzhestvennoe-otkrytie-i-osvyashenie-zhenskogo-pedagogicheskogo-instituta/photo_213-219104@400x270.jpg" alt="Открыт и освящен Женский педагогический институт">
+                                     src="/events/osvyashenie-pervoj-derevyannoj-petropavlovskoj-cerkvi/-.-17101716-.@400x270.jpg" alt="Освящение первой деревянной Петропавловской церкви">
                                 
                             </a>
                         </div>
@@ -368,12 +413,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      27 сентября 1906 года
+      12 апреля 1704 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1" href="/events/torzhestvennoe-otkrytie-i-osvyashenie-zhenskogo-pedagogicheskogo-instituta/">Открыт и освящен Женский педагогический институт</a>
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/osvyashenie-pervoj-derevyannoj-petropavlovskoj-cerkvi/">Освящение первой деревянной Петропавловской церкви</a>
                             </h2>
                         </div>
                     </div>
@@ -381,6 +427,340 @@
                 <!-- End Blog Minimal Blocks -->
 
                 
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/ukaz-petra-i-o-stroitelstve-v-sankt-peterburge-obrazcovyh-domov/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/ukaz-petra-i-o-stroitelstve-v-sankt-peterburge-obrazcovyh-domov/15-04-1714@400x270.jpg" alt="Указ Петра I о строительстве в Санкт-Петербурге «образцовых домов»">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      15 апреля 1714 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/ukaz-petra-i-o-stroitelstve-v-sankt-peterburge-obrazcovyh-domov/">Указ Петра I о строительстве в Санкт-Петербурге «образцовых домов»</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/razmeshenie-akusticheskoj-laboratorii-v-cerkvi-preobrazheniya-gospodnya/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/razmeshenie-akusticheskoj-laboratorii-v-cerkvi-preobrazheniya-gospodnya/1970-1980-.@400x270.jpg" alt="В Церкви Преображения Господня размещена акустическая лаборатория">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      15 апреля 1930 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/razmeshenie-akusticheskoj-laboratorii-v-cerkvi-preobrazheniya-gospodnya/">В Церкви Преображения Господня размещена акустическая лаборатория</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/nadezhdinskoj-ulice-prisvoeno-nazvanie-holmogorskaya-sovr-deputatskaya-ulica/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/nadezhdinskoj-ulice-prisvoeno-nazvanie-holmogorskaya-sovr-deputatskaya-ulica/88_big@400x270.jpg" alt="Надеждинской улице присвоено название Холмогорская (совр. Депутатская улица)">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      16 апреля 1887 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/nadezhdinskoj-ulice-prisvoeno-nazvanie-holmogorskaya-sovr-deputatskaya-ulica/">Надеждинской улице присвоено название Холмогорская (совр. Депутатская улица)</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/prisvoeno-nazvanie-peterburgskaya-naberezhnaya-ot-michurinskoj-ulicy-do-reki-karpovki/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/prisvoeno-nazvanie-peterburgskaya-naberezhnaya-ot-michurinskoj-ulicy-do-reki-karpovki/1972@400x270.jpg" alt="Присвоено название Петербургская набережная (от Мичуринской улицы до реки Карповки)">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      16 апреля 1887 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/prisvoeno-nazvanie-peterburgskaya-naberezhnaya-ot-michurinskoj-ulicy-do-reki-karpovki/">Присвоено название Петербургская набережная (от Мичуринской улицы до реки Карповки)</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/zhdanovskaya-ulica-poluchila-svoyo-oficialnoe-nazvanie/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/zhdanovskaya-ulica-poluchila-svoyo-oficialnoe-nazvanie/16-04-1887@400x270.jpg" alt="Ждановская улица получила своё официальное название">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      16 апреля 1887 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/zhdanovskaya-ulica-poluchila-svoyo-oficialnoe-nazvanie/">Ждановская улица получила своё официальное название</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/barachnaya-ulica-poluchila-novoe-nazvanie-barochnaya/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/barachnaya-ulica-poluchila-novoe-nazvanie-barochnaya/1986-.@400x270.jpg" alt="Барачная улица получила новое название - Ба́рочная">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      16 апреля 1887 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/barachnaya-ulica-poluchila-novoe-nazvanie-barochnaya/">Барачная улица получила новое название - Ба́рочная</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/skulptury-sfinksov-vernulis-na-kamennyj-ostrov/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/skulptury-sfinksov-vernulis-na-kamennyj-ostrov/de85e1bc6af1579e21c5be031408b295@400x270.jpg" alt="Скульптуры сфинксов вернулись на Каменный остров">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      17 апреля 2010 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/skulptury-sfinksov-vernulis-na-kamennyj-ostrov/">Скульптуры сфинксов вернулись на Каменный остров</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/vydelenie-sredstv-na-stroitelstvo-petropavlovskoj-bolnicy/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/vydelenie-sredstv-na-stroitelstvo-petropavlovskoj-bolnicy/1900-1914-.@400x270.jpg" alt="Николай I одобрил строительство Петропавловской больницы">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      25 апреля 1830 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/vydelenie-sredstv-na-stroitelstvo-petropavlovskoj-bolnicy/">Николай I одобрил строительство Петропавловской больницы</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/nachalo-bogosluzhenij-v-sobornoj-mecheti-peterburga/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/nachalo-bogosluzhenij-v-sobornoj-mecheti-peterburga/1914-.@400x270.jpg" alt="В Санкт-Петербургской Соборной мечети начались богослужения">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      30 апреля 1920 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/nachalo-bogosluzhenij-v-sobornoj-mecheti-peterburga/">В Санкт-Петербургской Соборной мечети начались богослужения</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/obrazovanie-kinostudii-lenfilm/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/obrazovanie-kinostudii-lenfilm/1934-.@400x270.jpg" alt="Образована киностудия «Ленфильм»">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      30 апреля 1918 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/obrazovanie-kinostudii-lenfilm/">Образована киностудия «Ленфильм»</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
+
+
+                
+                <!-- End Blog Minimal Blocks -->
 
                 <!-- Pagination -->
                 
@@ -391,439 +771,10 @@
     <ul class="list-inline">
 
         
-        <li class="list-inline-item float-left g-hidden-xs-down">
-            <a aria-label="Previous"
-               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
-               href="/events/page/14/">
-                                        <span aria-hidden="true">
-                                            <i class="fa fa-angle-left g-mr-5"></i> Предыдущая страница
-                                        </span>
-                <span class="sr-only">Предыдущая страница</span>
-            </a>
-        </li>
-        
 
 
         
-            
-            
-            <li class="list-inline-item">
-                
 
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/">1</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/2/">2</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/3/">3</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/4/">4</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/5/">5</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/6/">6</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/7/">7</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/8/">8</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/9/">9</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/10/">10</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/11/">11</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/12/">12</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/13/">13</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/14/">14</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-                <a class="u-pagination-v1__item u-pagination-v1-4 u-pagination-v1-4--active g-rounded-50 g-pa-7-14"
-                   href="#stickyblock-start">15</a>
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/16/">16</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/17/">17</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/18/">18</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/19/">19</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/20/">20</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/21/">21</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/22/">22</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/23/">23</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/24/">24</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/25/">25</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/26/">26</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/27/">27</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/28/">28</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/29/">29</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/30/">30</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/31/">31</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/32/">32</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/33/">33</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/34/">34</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/35/">35</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/36/">36</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/events/page/37/">37</a>
-                    
-
-                
-            </li>
-            
-
-        
-
-        
-        <li class="list-inline-item float-right g-hidden-xs-down">
-            <a aria-label="Next"
-               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
-               href="/events/page/16/">
-                                        <span aria-hidden="true">
-                                            Следующая страница<i class="fa fa-angle-right g-ml-5"></i>
-                                        </span>
-                <span class="sr-only">Следующая страница</span>
-            </a>
-        </li>
         
     </ul>
 </nav>
@@ -1052,11 +1003,34 @@
                 });
 
                 
-
 // initialization of sticky blocks
 setTimeout(function () {
 $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 }, 300);
+function getFormattedDate(d) {
+
+var dd = d.getDate();
+if (dd < 10) {
+dd = '0' + dd;
+}
+
+var mm = d.getMonth() + 1;
+if (mm < 10) {
+mm = '0' + mm;
+}
+var date_str = dd + '-' + mm;
+return date_str;
+}
+
+var cal_date = $('#datepicker').datepicker('getDate');
+var cal_tomorrow_date = new Date(cal_date);
+var cal_yesterday_date = new Date(cal_date);
+
+cal_tomorrow_date.setDate(cal_tomorrow_date.getDate() + 1);
+cal_yesterday_date.setDate(cal_yesterday_date.getDate() - 1);
+
+$('a[aria-label="tomorrow"]').attr('href', '/events/categories/' + getFormattedDate(cal_tomorrow_date) + '/');
+$('a[aria-label="yesterday"]').attr('href', '/events/categories/' + getFormattedDate(cal_yesterday_date) + '/');
 
 
 
