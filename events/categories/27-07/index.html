@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <!-- Title -->
-    <title>Памятные даты Петроградской стороны. Главная страница</title>
+    <title>Памятные даты Петроградской стороны. События за 27-07</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -141,10 +141,8 @@
 
     <!-- Blog Minimal Blocks -->
     
-
-
-<!-- date.current is defined -->
-
+<!-- site.get('/events@1').pagination.items.filter(F.categories.contains(bag('date.current'))).order_by('name') -->
+<!-- this.pagination.items.order_by('date', 'name') -->
 
 <div class="container g-pt-40 g-pb-20">
     <div class="row">
@@ -179,11 +177,11 @@
 
     <div id="stickyblock-start" class="row justify-content-between">
         <div class="col-lg-9 order-lg-2 g-mb-80">
+
             <div class="g-pl-20--lg">
                 
 
                 
-
                 
 
                 <!-- Blog Minimal Blocks -->
@@ -192,9 +190,9 @@
                         <div class="g-overflow-hidden">
                             
                             
-                            <a href="/events/pozhar-v-troice-petrovskom-sobore/">
+                            <a href="/events/otkryta-memorialnaya-doska-pp-kadochnikovu/">
                                 <img class="img-fluid w-100 g-mb-minus-6"
-                                     src="/events/pozhar-v-troice-petrovskom-sobore/-7-1913-.@400x270.jpg" alt="Пожар в Троице-Петровском соборе">
+                                     src="/events/otkryta-memorialnaya-doska-pp-kadochnikovu/27-07-1993@400x270.jpg" alt="Открыта мемориальная доска П.П. Кадочникову">
                                 
                             </a>
                         </div>
@@ -204,13 +202,13 @@
                             
   
     <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
-      20 февраля 1913 года
+      27 июля 1993 года
     </span>
   
 
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
                                 <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
-                                   href="/events/pozhar-v-troice-petrovskom-sobore/">Пожар в Троице-Петровском соборе</a>
+                                   href="/events/otkryta-memorialnaya-doska-pp-kadochnikovu/">Открыта мемориальная доска П.П. Кадочникову</a>
                             </h2>
                         </div>
                     </div>
@@ -219,11 +217,11 @@
 
                 
 
+
                 
+                <!-- End Blog Minimal Blocks -->
 
                 <!-- Pagination -->
-                
-                
                 
 
 
@@ -241,14 +239,12 @@
 </nav>
 
 
-                
                 <!-- End Pagination -->
-
             </div>
         </div>
 
         <!-- Calendar -->
-        <div class="col-lg-3 order-lg-1 g-brd-right--lg g-brd-gray-light-v4">
+        <div id="stickyblock-start" class="col-lg-3 order-lg-1 g-brd-right--lg g-brd-gray-light-v4">
             <div class="js-sticky-block g-sticky-block--lg"
                  data-end-point="#stickyblock-end" data-start-point="#stickyblock-start">
                 <div class="g-mb-50">
@@ -261,7 +257,6 @@
         <!-- End Calendar -->
 
     </div>
-
 </div>
 
     <!-- End Blog Minimal Blocks -->
@@ -471,7 +466,6 @@
 setTimeout(function () {
 $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 }, 300);
-
 function getFormattedDate(d) {
 
 var dd = d.getDate();
@@ -496,6 +490,7 @@ cal_yesterday_date.setDate(cal_yesterday_date.getDate() - 1);
 
 $('a[aria-label="tomorrow"]').attr('href', '/events/categories/' + getFormattedDate(cal_tomorrow_date) + '/');
 $('a[aria-label="yesterday"]').attr('href', '/events/categories/' + getFormattedDate(cal_yesterday_date) + '/');
+
 
 
             });
