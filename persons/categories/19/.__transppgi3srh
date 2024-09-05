@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <!-- Title -->
-    <title>Памятные даты Петроградской стороны. Люди Петроградской стороны на букву &laquo;М» </title>
+    <title>Памятные даты Петроградской стороны. Люди Петроградской стороны на букву &laquo;С» </title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -188,7 +188,7 @@
       <a class="nav-link" href="/persons/categories/13/">Л</a></li>
   
     <li class="nav-item">
-      <a class="nav-link active" href="/persons/categories/14/">М</a></li>
+      <a class="nav-link" href="/persons/categories/14/">М</a></li>
   
     <li class="nav-item">
       <a class="nav-link" href="/persons/categories/15/">Н</a></li>
@@ -203,7 +203,7 @@
       <a class="nav-link" href="/persons/categories/18/">Р</a></li>
   
     <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/19/">С</a></li>
+      <a class="nav-link active" href="/persons/categories/19/">С</a></li>
   
     <li class="nav-item">
       <a class="nav-link" href="/persons/categories/20/">Т</a></li>
@@ -261,18 +261,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/mendeleev/d0-9c-d0-b5-d0-b4-d0-b5-d0-bb-d0-b5-d0-b5-d0-b2[1]@800x800.jpg"
-                                 alt="Менделеев Дмитрий Иванович">
+                                 src="/persons/savina/d0-a1-d0-b0-d0-b2-d0-b8-d0-bd-d0-b0[1]@800x800.jpg"
+                                 alt="Савина Мария Гавриловна">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/mendeleev/">Менделеев Дмитрий Иванович</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/savina/">Савина Мария Гавриловна</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/mendeleev/">
-                                <p>Русский учёный и общественный деятель.  Известен как химик, физик, экономист, метролог, технолог, геолог, метеоролог, педагог. На Петербургской стороне проживал по следующим адресам: Съезжинская улица, 4 (1857), Большой проспект П. С., 10 (1861).</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/savina/">
+                                <p>Актриса. В 1908-1915 годах Мария Гавриловна жила в доме № 17 по улице Литераторов.</p>
                             </a>
                         </div>
                     </div>
@@ -287,18 +287,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/miller/[1]@800x800.jpg"
-                                 alt="Миллер Кирилл Семёнович">
+                                 src="/persons/samosud/sammuil-samosud-768x1075@800x800.jpg"
+                                 alt="Самосуд Самуил Абрамович">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/miller/">Миллер Кирилл Семёнович</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/samosud/">Самосуд Самуил Абрамович</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/miller/">
-                                <p>Российский художник, сценограф, модельер, музыкант. Жил в квартире в доме № 45 на Большой Пушкарской улице.</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/samosud/">
+                                <p>Советский дирижёр, народный артист СССР, лауреат трёх Сталинских премий. Жил на Съезжинской улице.</p>
                             </a>
                         </div>
                     </div>
@@ -313,18 +313,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/mihajlovskij/d0-9c-d0-b8-d1-85-d0-b0-d0-b9-d0-bb-d0-be-d0-b2-d1-81-d0-ba-d0-b8-d0-b9[1]@800x800.jpg"
-                                 alt="Михайловский Аркадий Петрович">
+                                 src="/persons/samohina/123456@800x800.jpg"
+                                 alt="Самохина Анна Владимировна">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/mihajlovskij/">Михайловский Аркадий Петрович</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/samohina/">Самохина Анна Владимировна</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/mihajlovskij/">
-                                <p>Командир атомной подводной лодки К-178 Северного флота, капитан 1 -го ранга. Герой Советского Союза</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/samohina/">
+                                <p>Советская и российская актриса театра и кино, телеведущая и певица. Жила в доме № 1/3 в Зоологическом переулке.</p>
                             </a>
                         </div>
                     </div>
@@ -339,18 +339,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/moiseeva/21716@800x800.jpg"
-                                 alt="Моисеева Ольга Николаевна">
+                                 src="/persons/saparov/[1]@800x800.jpg"
+                                 alt="Сапаров Ариф Васильевич">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/moiseeva/">Моисеева Ольга Николаевна</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/saparov/">Сапаров Ариф Васильевич</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/moiseeva/">
-                                <p>Балетмейстер-репетитор Ленинградского государственного академического театра оперы и балета имени С. М. Кирова. Народная артистка СССР, Народная артистка РСФСР, Заслуженная артистка РСФСР. Жила в доме № 1/5 на улице Куйбышева.</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/saparov/">
+                                <p>Советский писатель, журналист, первый летописец и непосредственный участник героических рейсов по ледовой трассе «Дорога жизни». Жил на улице Ленина, в доме № 34.</p>
                             </a>
                         </div>
                     </div>
@@ -365,18 +365,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/molchanov/[1]@800x800.jpg"
-                                 alt="Молчанов Иван Александрович">
+                                 src="/persons/sahnovskaya/123456@800x800.jpg"
+                                 alt="Сахновская Наталия Павловна">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/molchanov/">Молчанов Иван Александрович</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/sahnovskaya/">Сахновская Наталия Павловна</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/molchanov/">
-                                <p>Русский советский писатель. Жил в доме № 19 на Набережной реки Карповки.</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/sahnovskaya/">
+                                <p>Артистка балета. Жила в доме № 26-28 на Каменноостровском проспекте.</p>
                             </a>
                         </div>
                     </div>
@@ -391,18 +391,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/mravinskij/d0-9c-d1-80-d0-b0-d0-b2-d0-b8-d0-bd-d1-81-d0-ba-d0-b8-d0-b9[1]@800x800.jpg"
-                                 alt="Мравинский Евгений Александрович">
+                                 src="/persons/semchenko/d0-a1-d0-b5-d0-bc-d1-87-d0-b5-d0-bd-d0-ba-d0-be[1]@800x800.jpg"
+                                 alt="Семченко Яков Сергеевич">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/mravinskij/">Мравинский Евгений Александрович</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/semchenko/">Семченко Яков Сергеевич</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/mravinskij/">
-                                <p>Дирижёр, пианист. Народный артист СССР. Жил в доме № 4 на Петровской набережной.</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/semchenko/">
+                                <p>Командир 685-го легкого артиллерийского полка 1 -го Украинского фронта, генерал-майор. Герой Советского Союза</p>
                             </a>
                         </div>
                     </div>
@@ -417,18 +417,18 @@
                         
                         <div class="g-overflow-hidden">
                             <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/multan/d0-9c-d1-83-d0-bb-d1-8c-d1-82-d0-b0-d0-bd[1]@800x800.jpg"
-                                 alt="Мультан Николай Николаевич">
+                                 src="/persons/senchina/h-143913@800x800.jpg"
+                                 alt="Сенчина Людмила Петровна">
                         </div>
                         
                     </div>
                     <div class="col-md-8 g-mb-30">
                         <div class="g-pa-30--md">
                             <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/multan/">Мультан Николай Николаевич</a>
+                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/senchina/">Сенчина Людмила Петровна</a>
                             </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/multan/">
-                                <p>Командир 69-го стрелкового корпуса 49-й армии 2-го Белорусского фронта, генерал-майор. Герой Советского Союза</p>
+                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/senchina/">
+                                <p>Советская российская певица, актриса театра и кино. Народная артистка Российской Федерации. Жила в доме № 34 на Большой Пушкарской улице.</p>
                             </a>
                         </div>
                     </div>
@@ -447,48 +447,15 @@
     <ul class="list-inline">
 
         
-        <li class="list-inline-item float-left g-hidden-xs-down">
-            <a aria-label="Previous"
-               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
-               href="/persons/categories/14/page/2/">
-                                        <span aria-hidden="true">
-                                            <i class="fa fa-angle-left g-mr-5"></i> Предыдущая страница
-                                        </span>
-                <span class="sr-only">Предыдущая страница</span>
-            </a>
-        </li>
-        
 
 
         
             
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/persons/categories/14/">1</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/persons/categories/14/page/2/">2</a>
-                    
-
-                
-            </li>
             
             <li class="list-inline-item">
                 
                 <a class="u-pagination-v1__item u-pagination-v1-4 u-pagination-v1-4--active g-rounded-50 g-pa-7-14"
-                   href="#stickyblock-start">3</a>
+                   href="#stickyblock-start">1</a>
                 
             </li>
             
@@ -497,7 +464,51 @@
 
                     
                     <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/persons/categories/14/page/4/">4</a>
+                       href="/persons/categories/19/page/2/">2</a>
+                    
+
+                
+            </li>
+            
+            <li class="list-inline-item">
+                
+
+                    
+                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
+                       href="/persons/categories/19/page/3/">3</a>
+                    
+
+                
+            </li>
+            
+            <li class="list-inline-item">
+                
+
+                    
+                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
+                       href="/persons/categories/19/page/4/">4</a>
+                    
+
+                
+            </li>
+            
+            <li class="list-inline-item">
+                
+
+                    
+                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
+                       href="/persons/categories/19/page/5/">5</a>
+                    
+
+                
+            </li>
+            
+            <li class="list-inline-item">
+                
+
+                    
+                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
+                       href="/persons/categories/19/page/6/">6</a>
                     
 
                 
@@ -510,7 +521,7 @@
         <li class="list-inline-item float-right g-hidden-xs-down">
             <a aria-label="Next"
                class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
-               href="/persons/categories/14/page/4/">
+               href="/persons/categories/19/page/2/">
                                         <span aria-hidden="true">
                                             Следующая страница<i class="fa fa-angle-right g-ml-5"></i>
                                         </span>
