@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <!-- Title -->
-    <title>Памятные даты Петроградской стороны. Люди Петроградской стороны на букву &laquo;А» </title>
+    <title>Памятные даты Петроградской стороны. События за 04-02</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
@@ -53,9 +53,9 @@
 
     <!--    -->
     
-<!-- CSS Implementing Plugins -->
-<!-- Pay attention, this line below is not necessary -->
-<link rel="stylesheet" href="/vendor/fancybox/jquery.fancybox.min.css">
+<!-- datepicker style files -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css"
+      rel="stylesheet"/>
 
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext"
@@ -112,12 +112,12 @@
                     <div class="js-mega-menu collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg"
                          id="navBar">
                         <ul class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
-                            <li class="nav-item  g-mx-20--lg">
-                                <a class="nav-link g-px-0" href="/">События</a>
-                            </li>
                             <li class="nav-item active g-mx-20--lg">
-                                <a class="nav-link g-px-0" href="/persons/">Персоны<span
+                                <a class="nav-link g-px-0" href="/">События<span
                                             class="sr-only">(текущая)</span></a>
+                            </li>
+                            <li class="nav-item  g-mx-20--lg">
+                                <a class="nav-link g-px-0" href="/persons/">Персоны</a>
                             </li>
                         </ul>
                         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -134,312 +134,95 @@
     
 <section class="g-bg-map g-py-100">
     <div class="container text-center">
-        <h1 class="h1 header-block-title">Люди Петроградской стороны</h1>
+        <h1 class="h1 header-block-title">День в истории Петроградской стороны</h1>
     </div>
 </section>
 
 
     <!-- Blog Minimal Blocks -->
     
-<!-- Alphabet Block -->
-<section class="g-py-30">
-    <div class="container-fluid text-center">
-        <div class="row">
-            <div class="col"> <!-- Блок для полезного контента --> </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                <div id="alphabet">
-                    
-  <ul class="nav nav-pills justify-content-center">
-  
-    <li class="nav-item">
-      <a class="nav-link active" href="/persons/categories/01/">А</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/02/">Б</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/03/">В</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/04/">Г</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/05/">Д</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/06/">Е</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/07/">Ё</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/08/">Ж</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/09/">З</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/10/">И</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/12/">К</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/13/">Л</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/14/">М</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/15/">Н</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/16/">О</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/17/">П</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/18/">Р</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/19/">С</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/20/">Т</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/21/">У</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/22/">Ф</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/23/">Х</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/c/">Ц</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/25/">Ч</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/26/">Ш</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/27/">Щ</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/31/">Э</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/32/">Ю</a></li>
-  
-    <li class="nav-item">
-      <a class="nav-link" href="/persons/categories/33/">Я</a></li>
-  
-  </ul>
+<!-- site.get('/events@1').pagination.items.filter(F.categories.contains(bag('date.current'))).order_by('name') -->
+<!-- this.pagination.items.order_by('date', 'name') -->
 
-                </div>  <!-- alphabet -->
-            </div> <!-- .col-12 col-sm-12 col-md-8 col-lg-8 -->
+<div class="container g-pt-40 g-pb-20">
+    <div class="row">
+        <div class="col-lg-12 g-mb-60">
+            <!-- Pagination -->
+            <nav aria-label="Date Navigation" class="text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item float-left g-hidden-xs-down">
+                        <a aria-label="yesterday"
+                           class="y-t-date-button u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-25 g-pa-7-16"
+                           href="#">
+                            <span aria-hidden="true"><i
+                                    class="yesterday fa fa-angle-left g-mr-5"></i> Предыдущая дата</span>
+                            <span class="sr-only">Предыдущая дата</span>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item float-right g-hidden-xs-down">
+                        <a aria-label="tomorrow"
+                           class="y-t-date-button u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-25 g-pa-7-16"
+                           href="#">
+                                <span aria-hidden="true">Следующая дата <i
+                                        class="tomorrow fa fa-angle-right g-ml-5"></i></span>
+                            <span class="sr-only">Следующая дата</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Pagination -->
         </div>
     </div>
-</section>
-<!-- End Alphabet Block -->
+
+    <div id="stickyblock-start" class="row justify-content-between">
+        <div class="col-lg-9 order-lg-2 g-mb-80">
+
+            <div class="g-pl-20--lg">
+                
+
+                
+                
+
+                <!-- Blog Minimal Blocks -->
+                <article class="row align-items-center u-block-hover">
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-overflow-hidden">
+                            
+                            
+                            <a href="/events/prinyato-reshenie-uvekovechit-pamyat-na-dobrolyubova/">
+                                <img class="img-fluid w-100 g-mb-minus-6"
+                                     src="/events/prinyato-reshenie-uvekovechit-pamyat-na-dobrolyubova/1-@400x270.jpg" alt="Принято решение увековечить память Николая Добролюбова">
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 g-mb-30">
+                        <div class="g-pa-30--md">
+                            
+  
+    <span class="d-block g-color-gray-dark-v4 g-font-weight-400 g-font-size-18 mb-2">
+      4 февраля 1936 года
+    </span>
+  
+
+                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
+                                <a class="u-link-v5 g-color-black g-color-red--hover g-brd-bottom g-brd-1 g-brd-black g-brd-red--hover g-pb-1"
+                                   href="/events/prinyato-reshenie-uvekovechit-pamyat-na-dobrolyubova/">Принято решение увековечить память Николая Добролюбова</a>
+                            </h2>
+                        </div>
+                    </div>
+                </article>
+                <!-- End Blog Minimal Blocks -->
+
+                
 
 
-<div class="container g-pt-30 g-pb-30">
-    <div class="row justify-content-center">
-        <div class="col-lg-10">
+                
+                <!-- End Blog Minimal Blocks -->
 
-            
+                <!-- Pagination -->
                 
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/anichkov-sergej/anichkov_sergej@800x800.png"
-                                 alt="Аничков Сергей Викторович">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/anichkov-sergej/">Аничков Сергей Викторович</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/anichkov-sergej/">
-                                <p>Русский и советский фармаколог, член-корреспондент, действительный член АМН СССР. Представитель СССР в Международном союзе фармакологов. Герой Социалистического Труда.  Жил на Петропавловской улице и на Каменноостровском проспекте, 69-71.</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/antonov/antonov-20n.d.[1]@800x800.jpg"
-                                 alt="Антонов Николай Дмитриевич">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/antonov/">Антонов Николай Дмитриевич</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/antonov/">
-                                <p>Советский военачальник, генерал-полковник авиации, Герой Советского Союза. С 1962 по 1986 год жил в доме № 1 на улице Куйбышева.</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/anciferov/1-20-4-[1]@800x800.jpg"
-                                 alt="Анциферов Николай Павлович">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/anciferov/">Анциферов Николай Павлович</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/anciferov/">
-                                <p>Историк, петербурговед, краевед, культуролог, общественный деятель, один из организаторов экскурсионного дела в России.  В 1908–1912  годах жил на Большом проспекте Петроградской стороны, 25, в 1912–1914 — на Большой Спасской улице (ныне улица Красного Курсанта), 9б, в 1920-х годах почти 10 лет прожил на Малой Посадской, 19  в доходном доме А.К. Леммериха.</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/apakidze/d0-a2-d0-b8-d0-bc-d1-83-d1-80_-d0-90-d0-bf-d0-b0-d0-ba-d0-b8-d0-b4-d0-b7-d0-b5[1]@800x800.jpg"
-                                 alt="Апакидзе Тимур Автандилович">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/apakidze/">Апакидзе Тимур Автандилович</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/apakidze/">
-                                <p>Российский военный лётчик, лётчик-снайпер, генерал-майор, Герой Российской Федерации. Выпускник Нахимовского военно-морского училища.</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/aplaksin/1aplaksin@800x800.jpg"
-                                 alt="Аплаксин Андрей Петрович">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/aplaksin/">Аплаксин Андрей Петрович</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/aplaksin/">
-                                <p>Русский архитектор, гражданский инженер, художник, археолог, реставратор, историк русской архитектуры, литератор. Жил на Гатчинской улице, 11.</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/arhangelskij/hd_ff5ce7730c90ce2ebaa6f5e519f14973_68493f6edfc16@800x800.png"
-                                 alt="Архангельский Николай Александрович">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/arhangelskij/">Архангельский Николай Александрович</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/arhangelskij/">
-                                <p>Русский военный инженер и архитектор, изобретатель, генерал-лейтенант</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-                <!-- Blog Minimal Blocks -->
-                <article class="row align-items-center u-block-hover">
-                    <div class="col-md-4 g-mb-30">
-                        
-                        
-                        <div class="g-overflow-hidden">
-                            <img class="img-fluid w-100 g-mb-minus-6"
-                                 src="/persons/ahmatova/d0-90-d1-85-d0-bc-d0-b0-d1-82-d0-be-d0-b2-d0-b0-20-d0-90-d0-bd-d0-bd-d0-b0[1]@800x800.jpeg"
-                                 alt="Ахматова Анна Андреевна">
-                        </div>
-                        
-                    </div>
-                    <div class="col-md-8 g-mb-30">
-                        <div class="g-pa-30--md">
-                            <h2 class="h3 g-color-black g-font-weight-600 mb-4">
-                                <a class="u-link-v5 g-color-black g-color-primary--hover" href="/persons/ahmatova/">Ахматова Анна Андреевна</a>
-                            </h2>
-                            <a class="person-block-custom-annotation g-color-gray-dark-v2 g-text-underline--none--hover" href="/persons/ahmatova/">
-                                <p>Поэтесса, переводчица, литературовед.  Улица Ленина,  дом 34, квартира 23 - последний ленинградский адрес Анны Ахматовой, здесь она жила с 1961 по  1966  год.</p>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <hr class="g-mb-60 g-mx-15">
-                <!-- End Blog Minimal Blocks -->
-                
-            
-
-            <!-- Pagination -->
-            
 
 
 
@@ -447,51 +230,7 @@
     <ul class="list-inline">
 
         
-        <li class="list-inline-item float-left g-hidden-xs-down">
-            <a aria-label="Previous"
-               class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
-               href="/persons/categories/01/page/2/">
-                                        <span aria-hidden="true">
-                                            <i class="fa fa-angle-left g-mr-5"></i> Предыдущая страница
-                                        </span>
-                <span class="sr-only">Предыдущая страница</span>
-            </a>
-        </li>
-        
 
-
-        
-            
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/persons/categories/01/">1</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-
-                    
-                    <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                       href="/persons/categories/01/page/2/">2</a>
-                    
-
-                
-            </li>
-            
-            <li class="list-inline-item">
-                
-                <a class="u-pagination-v1__item u-pagination-v1-4 u-pagination-v1-4--active g-rounded-50 g-pa-7-14"
-                   href="#stickyblock-start">3</a>
-                
-            </li>
-            
 
         
 
@@ -500,8 +239,23 @@
 </nav>
 
 
-            <!-- End Pagination -->
+                <!-- End Pagination -->
+            </div>
         </div>
+
+        <!-- Calendar -->
+        <div id="stickyblock-start" class="col-lg-3 order-lg-1 g-brd-right--lg g-brd-gray-light-v4">
+            <div class="js-sticky-block g-sticky-block--lg"
+                 data-end-point="#stickyblock-end" data-start-point="#stickyblock-start">
+                <div class="g-mb-50">
+                    <div id="datepicker"></div>
+                    <input id="my_hidden_input" type="hidden">
+                </div>
+
+            </div>
+        </div>
+        <!-- End Calendar -->
+
     </div>
 </div>
 
@@ -676,7 +430,15 @@
 <script src="/js/helpers/hs.hamburgers.js"></script>
 <script src="/js/components/hs.go-to.js"></script>
 
+<!-- datepicker javascript files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.ru.min.js"></script>
+
 <!-- JS Custom -->
+<script src="/js/custom.js"></script>
+
+<!-- Sticky behavior for calendar block -->
+<script src="/js/components/hs.sticky-block.js"></script>
 
 
 
@@ -700,7 +462,35 @@
                 });
 
                 
-<!-- JS Calendar Javascript init -->
+// initialization of sticky blocks
+setTimeout(function () {
+$.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+}, 300);
+function getFormattedDate(d) {
+
+var dd = d.getDate();
+if (dd < 10) {
+dd = '0' + dd;
+}
+
+var mm = d.getMonth() + 1;
+if (mm < 10) {
+mm = '0' + mm;
+}
+var date_str = dd + '-' + mm;
+return date_str;
+}
+
+var cal_date = $('#datepicker').datepicker('getDate');
+var cal_tomorrow_date = new Date(cal_date);
+var cal_yesterday_date = new Date(cal_date);
+
+cal_tomorrow_date.setDate(cal_tomorrow_date.getDate() + 1);
+cal_yesterday_date.setDate(cal_yesterday_date.getDate() - 1);
+
+$('a[aria-label="tomorrow"]').attr('href', '/events/categories/' + getFormattedDate(cal_tomorrow_date) + '/');
+$('a[aria-label="yesterday"]').attr('href', '/events/categories/' + getFormattedDate(cal_yesterday_date) + '/');
+
 
 
             });
