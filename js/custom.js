@@ -20,7 +20,8 @@ if (path.toLowerCase().indexOf('events/categories') !== -1) {
         $('#my_hidden_input').val(current_date);
     }
 
-}
+};
+
 $('#datepicker').on('changeDate', function () {
     var date = $('#datepicker').datepicker('getFormattedDate');
     window.location.href = '/events/categories/' + date + '/';
