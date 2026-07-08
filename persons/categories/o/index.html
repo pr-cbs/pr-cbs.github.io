@@ -692,36 +692,16 @@
     $(window).on('load', function () {
         // initialization of sticky blocks
         setTimeout(function () {
-        $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+            $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
         }, 300);
-
-        function getFormattedDate(d) {
-
-        var dd = d.getDate();
-        if (dd < 10) {
-        dd = '0' + dd;
-        }
-
-        var mm = d.getMonth() + 1;
-        if (mm < 10) {
-        mm = '0' + mm;
-        }
-        var date_str = dd + '-' + mm;
-        return date_str;
-        }
-
-        var cal_date = $('#datepicker').datepicker('getDate');
-
-        var cal_tomorrow_date = new Date(cal_date);
-        var cal_yesterday_date = new Date(cal_date);
-
-        cal_tomorrow_date.setDate(cal_tomorrow_date.getDate() + 1);
-        cal_yesterday_date.setDate(cal_yesterday_date.getDate() - 1);
-
-        $('a[aria-label="tomorrow"]').attr('href', '/events/categories/' + getFormattedDate(cal_tomorrow_date) + '/');
-        $('a[aria-label="yesterday"]').attr('href', '/events/categories/' + getFormattedDate(cal_yesterday_date) + '/');
     });
 
 </script>
+<script>
+    
+<!-- JS Calendar Javascript init -->
+
+</script>
+
 </body>
 </html>
